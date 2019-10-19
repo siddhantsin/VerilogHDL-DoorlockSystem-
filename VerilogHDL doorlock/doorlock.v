@@ -73,7 +73,9 @@ endmodule
 
 
 
-
+// Credits for the usensor module: https://github.com/mohammadmoustafa/CSCB58-Winter-2018-Project
+// By Alexei Coreiba, Kanstantsin Ilioukevitch, Mohamed Moustafa, Ahmad Shanqiti 
+// This module was used afte rtaking the permission of the above group.
 
 module usensor(distance, trig, echo, clock);
   input clock, echo;
